@@ -37,7 +37,7 @@ class App extends Component {
       start:7+"-"+20,
       starti:7,
       startj:20,
-      end:7+"-"+30,
+      end:7+"-"+45,
       endi:7,
       endj:30,
 
@@ -615,10 +615,10 @@ let currentCell;
           
           </div>
           <div className="outer">
-            <h2 className="inner">nikhilsoni-stack</h2>&nbsp;&nbsp;
+            <h2 className="inner">Nikhilsoni-stack</h2>&nbsp;&nbsp;
             <a className="fa fa-facebook" target="_blank" href="https://www.facebook.com/nikhil.soni.1675"></a>&nbsp;&nbsp;
             <a className="fa fa-instagram"target="_blank" href="https://www.instagram.com/the.el_dorado/"></a>&nbsp;&nbsp;
-            <a className="fa fa-github" target="_blank" href="#"></a>&nbsp;&nbsp;
+            <a className="fa fa-github" target="_blank" href="https://github.com/nikhilsoni-stack"></a>&nbsp;&nbsp;
             <a className="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/in/nikhil-soni-stack"></a>&nbsp;&nbsp;
             
             
