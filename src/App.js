@@ -610,10 +610,12 @@ let currentCell;
 
 
           }
-          </thead></table>
+          </thead>
+          </table>
+          
           </div>
           <div className="outer">
-            <h2 className="inner">aanikhilsoni-stack 2020</h2>&nbsp;&nbsp;
+            <h2 className="inner">nikhilsoni-stack</h2>&nbsp;&nbsp;
             <a className="fa fa-facebook" target="_blank" href="https://www.facebook.com/nikhil.soni.1675"></a>&nbsp;&nbsp;
             <a className="fa fa-instagram"target="_blank" href="https://www.instagram.com/the.el_dorado/"></a>&nbsp;&nbsp;
             <a className="fa fa-github" target="_blank" href="#"></a>&nbsp;&nbsp;
