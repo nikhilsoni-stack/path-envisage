@@ -1,6 +1,6 @@
 // board constant
 export const MAX_ROW="20"
-export const MAX_COL="62"
+export const MAX_COL="70"
 // animation constant
 export const VISITED= "visited"
 export const UNVISITED="unvisited"
