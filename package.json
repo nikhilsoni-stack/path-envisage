@@ -2,7 +2,7 @@
   "name": "path-visualizer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikhilsoni-stack.github.io/path-envisage.git",
+  "homepage": "https://nikhilsoni-stack.github.io/path-envisage/",
   
   "dependencies": {
 
@@ -52,7 +52,7 @@
   },
   "scripts": {
     "predeploy":"npm run build",
-    "deploy":"gh-page -d build",
+    "deploy":"gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"

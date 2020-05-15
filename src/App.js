@@ -574,10 +574,8 @@ let currentCell;
 
         ></Toolbar>
         </div>
-        <div >
-        {/* <Toolbody></Toolbody> */}
-        </div>
-        <table><thead>
+        <div style={{width:'100%' ,textAlign:'center'}}>
+        <table style={{width:'100%',textAlign:'center'}}><thead>
           {this.state.board.map((item,i)=>{
             return <tr
             key={i}
@@ -588,7 +586,7 @@ let currentCell;
                 style={{
                   border:'1px solid black',
                   textAlign:'center',
-                  width:'20px',
+                  width:'24px',
                   height:'24px',
                   
                   
@@ -613,6 +611,7 @@ let currentCell;
 
           }
           </thead></table>
+          </div>
           <div className="outer">
             <h2 className="inner">aanikhilsoni-stack 2020</h2>&nbsp;&nbsp;
             <a className="fa fa-facebook" target="_blank" href="https://www.facebook.com/nikhil.soni.1675"></a>&nbsp;&nbsp;
