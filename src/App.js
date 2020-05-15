@@ -39,7 +39,7 @@ class App extends Component {
       startj:20,
       end:7+"-"+45,
       endi:7,
-      endj:30,
+      endj:45,
 
       showWeight:false,
       disableAll:false,
