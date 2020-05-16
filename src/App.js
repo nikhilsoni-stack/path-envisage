@@ -44,8 +44,9 @@ class App extends Component {
       showWeight:false,
       disableAll:false,
       weight:false,
-      
+     
     }
+    document.title="Path-Envisage"; 
   
     
  }
@@ -596,9 +597,12 @@ let currentCell;
                 className={jitem.state===UNVISITED?cssClasses.unvisited:jitem.state===VISITED?cssClasses.visited:jitem.state===OBSTRUCTION?cssClasses.obstruction:jitem.state===PATH?cssClasses.path:null }
                 onClick={()=>this.cellClickHandler(jitem.id)}
                 >
-                  <i className={jitem.id===this.state.start ? "fa fa-fighter-jet":
-                  jitem.id===this.state.end?" fa fa-heart":" "
-                  }>
+                  <i className={jitem.id===this.state.start ? "fa fa-street-view":
+                  jitem.id===this.state.end?" fa fa-bullseye":" "
+                  
+                }
+                style={this.state.start===jitem.id?{color:'black'}:this.state.end===jitem.id?{color:'black'}:null }
+                  >
                     {this.state.start===jitem.id?"":this.state.end===jitem.id?"":this.state.showWeight?jitem.weight:" " }</i>
                  
                 </td>   
