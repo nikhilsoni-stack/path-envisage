@@ -70,7 +70,7 @@ const toolbar=(prop)=>{
                 </div>  
                 <div className="inner" >
 
-                <button type="button" onClick={()=>prop.visualizeHandler()}className="btn btn-outline-success btn-space btn-lg " disabled={prop.disableAll}>Visualize</button>
+                <button type="button" onClick={()=>prop.visualizeHandler()}className="btn btn-outline-success btn-space btn-lg " disabled={prop.disableAll}>Visualise</button>
                 </div>
                 <div className="inner">
                 <button className="btn-space btn btn-outline-primary dropdown-toggle mr-5 btn-lg waves-effect waves-light" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled={prop.disableAll}>Maze:{prop.crrMaze}</button>
@@ -94,7 +94,7 @@ const toolbar=(prop)=>{
     </div>
     <div className="outer">
                 <div  className="inner">
-                <button type="button" onClick={()=>prop.clearBoadHandler()}className="btn btn-outline-danger btn-space btn-lg float " disabled={prop.disableAll}>Clear Boad</button>
+                <button type="button" onClick={()=>prop.clearBoadHandler()}className="btn btn-outline-danger btn-space btn-lg float " disabled={prop.disableAll}>Clear Board</button>
                 {/* <button type="button" onClick={()=>prop.setStart()}  className="btn btn-outline-secondary btn-space btn-lg float" disabled={prop.disableAll}>StartPonit</button> */}
                 <button type="button" className="btn btn-outline-secondary btn-space btn-lg float" data-toggle="modal" data-target="#myModal" disabled={prop.disableAll}>Start Point</button>
 

@@ -28,7 +28,7 @@ class App extends Component {
       board_dict:this.board_dict,// map of cells
       algorithums:["BFS","DFS","Dijkstra","A-Star","Greedy-bfs","Swarm"],
       algorithumFunction:[this.bfs,this.dfs,this.dijkstra,this.aStar,this.greadyBfs,this.swarm],
-      mazeAlogrithums:["Random Obstruction","Random Connection","Recursive Divison"],
+      mazeAlogrithums:["Random Obstruction","Random Connection","Recursive Division"],
       mazeFunction:[this.randomObstructionMaze,this.randomConnectionMaze,this.recursiveDivison],
       crrAlgorithumId:-1,
       crrMazeID:-1,
